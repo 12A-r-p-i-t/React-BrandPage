@@ -1,9 +1,13 @@
 import React from "react"
-import './App.css';
 import Header from "./components/Header/Header"
+import Brand from "./components/Brand/Brand";
 function App() {
   return (
-   <Header /> 
+    <div>
+      <Header /> 
+      <Brand />
+    </div>
+   
   );
 }
 

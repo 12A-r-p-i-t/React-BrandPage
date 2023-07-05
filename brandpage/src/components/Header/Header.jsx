@@ -1,6 +1,7 @@
 import React from "react" 
 import "./Header.css"
 import Button from '@mui/material/Button';
+import DensitySmallIcon from '@mui/icons-material/DensitySmall';
 
 function Header() {
     return (
@@ -24,6 +25,16 @@ function Header() {
             </div>
             <div className="nav-flex-container-3">
                 <Button variant="contained">Login</Button>
+            </div>
+            <div className="dropdown" style={{float: "right"}}>
+                <DensitySmallIcon className="dropbtn"></DensitySmallIcon>
+                <div class="dropdown-content">
+                    <a href="#">LOGIN</a>
+                    <a href="#">MENU</a>
+                    <a href="#">LOCATION</a>
+                    <a href="#">ABOUT</a>
+                    <a href="#">CONTACT</a>
+                </div>
             </div>
         </div>
     )
